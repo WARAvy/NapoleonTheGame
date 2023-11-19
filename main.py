@@ -14,7 +14,7 @@ class Event:
 
 def question(*options, prompt):
     print(prompt)
-    print("Please choose an option:")
-    for option in options:
-        current = options.index(prompt) + 1
-        print(f"{current}. {option}")
+    print("Please choose an option: \n", options)
+    
+
+question(1,2,3,prompt="test123")
